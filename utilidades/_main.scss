@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+main {
+
+    img {
+
+        width: 100%;
+    }
+
+    .seccion1 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .img {
+        width: 70px;
+        margin: 30px 100px;
+
+    }
+
+.seccion3 {text-align: center;
+    .seccionRedes {
+        display: flex;
+        justify-content: space-around;
+        img{
+            height: 30px;
+            
+        }
+    }
+}
+
+
+    .seccion2 {
+        text-align: center;
+
+        .h2 {
+            color: rgb(22, 203, 203);
+
+            &:hover {
+                color: black;
+            }
+        }
+
+
+
+
+        .resaltar {
+            &:hover {
+                padding: 2px;
+            }
+
+        }
+        .colorLetras{
+            color: green;
+            &:active{
+                font-weight: bold;
+            }
+        }
+.colorLetrasNo {
+    color: red;
+  
+}
+
+   
+    }
+
+
+    @media(max-width:767px) {
+
+        img {
+            padding: 15%;
+        }
+
+        .texto {
+            font-size: 15px;
+        }
+
+        .h2 {
+            font-size: 20px;
+        }
+
+        .informacion {
+            display: none;
+        }
+
+        .img {
+            width: 50px;
+            margin: 1px 10px;
+        }
+    }
+}
+
+
+
+
+
+// .main {
+
+
+
+//      .bor img {
+//         height: 100px;
+//         padding: 25px;
+//         margin: 0px;
+//         text-align: center;
+
+//     }
+
+//     .blanco {
+//         height: 50px;
+//     }
+
+//     .altura {
+//         height: 80px;
+//     }
+
+
+
+//     .colorLetras {
+//         color: rgb(31, 138, 31);
+//     }
+
+//     .colorLetrasNo {
+//         color: red;
+
+//     }
+
+//     .navbar {
+//         flex-direction: row;
+//         align-content: flex-end;
+
+//     }
+
+//     .redes {
+//         height: 30px;
+//     }
+
+
+
+//     .trasladar {
+//         animation-name: trasladar;
+//         animation-iteration-count: initial;
+//         animation-timing-function: ease-in;
+//         animation-duration: 3s;
+//         animation-delay: 0s;
+//     }
+
+
+
+
+
+
+// }
