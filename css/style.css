@@ -1,3 +1,6 @@
+header .logo:hover, body main .seccion3 .seccionRedes img:hover, body main .seccion2 .resaltar:hover, footer .seccion5 .marcas h2:hover {
+  padding: 1px; }
+
 @media (max-width: 769px) {
   header {
     height: 60px; } }
@@ -6,78 +9,88 @@ header .logo {
   height: 100px;
   border-radius: 50%;
   margin: 10px; }
-  header .logo:hover {
-    padding: 1px; }
   @media (max-width: 769px) {
     header .logo {
-      height: 40px; } }
+      height: 60px;
+      position: relative;
+      right: 20%; } }
 
 header .moverLogo {
   display: flex; }
 
 header a {
-  font-weight: 500;
+  font-weight: 30;
   margin-left: 60px;
-  font-size: 25px; }
+  font-size: 20px; }
   header a:hover {
     font-weight: bold; }
+
+header .botonGris {
+  right: 30px; }
 
 * {
   box-sizing: border-box;
   margin: 0%;
   padding: 0%; }
 
-main img {
+::-webkit-scrollbar {
+  display: none; }
+
+body main img {
   width: 100%; }
 
-main .seccion1 {
+body main .seccion1 {
+  margin-top: 10px;
+  background-color: #77b3af;
   display: flex;
   justify-content: center; }
 
-main .img {
+body main .img {
   width: 70px;
   margin: 30px 100px; }
 
-main .seccion3 {
-  text-align: center; }
-  main .seccion3 .seccionRedes {
+body main .seccion3 {
+  text-align: center;
+  margin: 20px; }
+  body main .seccion3 .seccionRedes {
     display: flex;
     justify-content: space-around; }
-    main .seccion3 .seccionRedes img {
-      height: 30px; }
+    body main .seccion3 .seccionRedes img {
+      height: 40px; }
 
-main .seccion2 {
+body main .seccion2 {
   text-align: center; }
-  main .seccion2 .h2 {
+  body main .seccion2 .h2 {
     color: #16cbcb; }
-    main .seccion2 .h2:hover {
+    body main .seccion2 .h2:hover {
       color: black; }
-  main .seccion2 .resaltar:hover {
-    padding: 2px; }
-  main .seccion2 .colorLetras {
+  body main .seccion2 .colorLetras {
     color: green; }
-    main .seccion2 .colorLetras:active {
+    body main .seccion2 .colorLetras:active {
       font-weight: bold; }
-  main .seccion2 .colorLetrasNo {
+  body main .seccion2 .colorLetrasNo {
     color: red; }
 
 @media (max-width: 767px) {
-  main img {
+  body main img {
     padding: 15%; }
-  main .texto {
+  body main .texto {
     font-size: 15px; }
-  main .h2 {
+  body main .h2 {
     font-size: 20px; }
-  main .informacion {
+  body main .informacion {
     display: none; }
-  main .img {
+  body main .img {
     width: 50px;
     margin: 1px 10px; } }
 
 footer {
   text-align: center; }
   footer .seccion4 {
-    text-align: center; }
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #77b3af; }
     footer .seccion4 p {
       margin: 20px; }
   footer .seccion5 form {
@@ -85,9 +98,6 @@ footer {
     margin: 15px; }
   footer .seccion5 .marcas {
     margin: 15px; }
-    footer .seccion5 .marcas h2:hover {
-      padding: 1px;
-      font-weight: lighter; }
   footer .seccion5 h4 {
     font-size: 20px;
     margin-right: 20px; }

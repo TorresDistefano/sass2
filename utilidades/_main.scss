@@ -5,8 +5,16 @@
 
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+   
 
+body{
+    
+ 
 main {
+
 
     img {
 
@@ -14,6 +22,8 @@ main {
     }
 
     .seccion1 {
+        margin-top: 10px;
+        background-color: $colorFondo;
         display: flex;
         justify-content: center;
 
@@ -26,11 +36,20 @@ main {
     }
 
 .seccion3 {text-align: center;
+    margin: 20px;
+
+  
+
     .seccionRedes {
         display: flex;
         justify-content: space-around;
         img{
-            height: 30px;
+            height: 40px;
+
+
+           @extend %hover;
+            
+            
             
         }
     }
@@ -52,10 +71,7 @@ main {
 
 
         .resaltar {
-            &:hover {
-                padding: 2px;
-            }
-
+            @extend %hover;
         }
         .colorLetras{
             color: green;
@@ -99,62 +115,5 @@ main {
 
 
 
+}
 
-
-// .main {
-
-
-
-//      .bor img {
-//         height: 100px;
-//         padding: 25px;
-//         margin: 0px;
-//         text-align: center;
-
-//     }
-
-//     .blanco {
-//         height: 50px;
-//     }
-
-//     .altura {
-//         height: 80px;
-//     }
-
-
-
-//     .colorLetras {
-//         color: rgb(31, 138, 31);
-//     }
-
-//     .colorLetrasNo {
-//         color: red;
-
-//     }
-
-//     .navbar {
-//         flex-direction: row;
-//         align-content: flex-end;
-
-//     }
-
-//     .redes {
-//         height: 30px;
-//     }
-
-
-
-//     .trasladar {
-//         animation-name: trasladar;
-//         animation-iteration-count: initial;
-//         animation-timing-function: ease-in;
-//         animation-duration: 3s;
-//         animation-delay: 0s;
-//     }
-
-
-
-
-
-
-// }
