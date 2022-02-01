@@ -1,5 +1,5 @@
 header .logo:hover, body main .seccion3 .seccionRedes img:hover, body main .seccion2 .resaltar:hover, footer .seccion5 .marcas h2:hover {
-  padding: 1px; }
+  padding: 2px; }
 
 @media (max-width: 769px) {
   header {
